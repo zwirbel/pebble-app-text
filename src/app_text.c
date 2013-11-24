@@ -5,7 +5,7 @@
 
 #define MY_UUID { 0x9C, 0x89, 0x24, 0xE9, 0x1B, 0xBC, 0x45, 0x7A, 0xB9, 0x92, 0x63, 0x98, 0xB6, 0xF3, 0xFA, 0xD3 }
 PBL_APP_INFO(MY_UUID,
-             "IT KPI", "Erik Marke", //based on Mikulas work
+             "IT KPI", "Erik Marke", //based on Mikulas work.
              1, 0, /* App version */
              DEFAULT_MENU_ICON,
              APP_INFO_STANDARD_APP);
