@@ -5,7 +5,7 @@
 
 #define MY_UUID { 0x9C, 0x89, 0x24, 0xE9, 0x1B, 0xBC, 0x45, 0x7A, 0xB9, 0x92, 0x63, 0x98, 0xB6, 0xF3, 0xFA, 0xD3 }
 PBL_APP_INFO(MY_UUID,
-             "Text App", "Mikulas",
+             "IT KPI", "Erik Marke", //based on Mikulas work
              1, 0, /* App version */
              DEFAULT_MENU_ICON,
              APP_INFO_STANDARD_APP);
@@ -23,8 +23,9 @@ void populateTexts()
   // GENERATE FROM texty.php
 
 /* BEGINTEXT */
-texts[0] = "1 Starověk 3500prn--5st nl| nepsaná forma, pranostiky, obrady, úrední| Sumerská, mezopotámie: obrázkové>klínové, Epos o Gilgam| Staroegyptská: hieroglf, Kniha mrtvých| Indická: védy, Kálidása| Čínská: Konfucius, Lao--C| Perská: Zarathustra--Avesta sborník modliteb| Hebrejská: Bible Starý zákon(5k), Nový (27k, 4ev)| Antická, Recká: prehist (12--9st pnl) dithyramby na Dionýsa, pajány na Apollóna, Sapfó, Anakreon, Ezop, Homér| atické (5--4) Thespis(I), Aischylos(II), Sofokles(III), Aristofanés stará, Menandros nová| helenist(3--1) Theokritos idyly| Rímská Titus Plautus, Publius Terentius, Publius Ovidius Naso, Cicero| ";
-texts[1] = "2 Stredověk 5--15st| Persie 1000vyprávění, Firdausí Knihá králu, Nizámí 7 obrazu, Omar Chajjám 4versí, Avicena| Arábie Korán, 1000+1 noc| Čína Li Po Věčná písmena, Tu Fu| Japonsko kaligrafie, Manjósu, Kokinsu, Kodziki, Sei Sónagan Sesity pod polstár| Indie Kálidása Sakuntalá| Evropa byzantská X rímská oblast, 7 svobod. umění, P. o Rolandovi, o Nibelunzích, o Cidovi, Alexandreida, Tristan a Izolda Beowulf| dvorská kurtoazní lyrika, vyumělkovanost zakéri Guillaume de Lorris Román o ruzi| drama náboz miracula X karneva sotie, morality| Cstps t.r. Mandevila, Marco Polo Milion| ";
+texts[0] = "1 3400 Blackberries\n1.1 dskjfsdkfj\n\nsdlksad";
+// would like to have first line with a bold larger font then second+ lines.
+texts[1] = "2 2700 iOS Devices|+30%| ";
 texts[2] = "3 Český stredověk 9--15st| Cyril hlaholice a Metoděj 863, cyrilice, Zákon sudnyj ljudem, Proglas, Zivot Konst., M.| 10--11st latinská duchov+klástery, skriptoria, legendy| 1.staroslovenská l.o.sv.Václavu, 2., Hospodine pomiluj ny| latinská Kristiánova legenda, Vita Minor| 12--13st latina vítězí, glosy, anotace, kroniky písně legendy, Svatý Výclave, Kosmova kronika| 13--14st Leg o.sv. Katerině, drama Mastičkár, Písen veselé chudiny, Vita Caroli, Smil Flaska z Pardubic| ";
 texts[3] = "4 Husiti 2p14s--1p15s| --světské legendy, +laicizace, +duchovní, satiry, kroniky, kázání| Jan Viklef --pozemské statky, Tomás Stítný ze S.| Jan Hus kritika církve, odpustku, 1412 nekázal, 15 upálen, Knízky o svatokup, Výklad Viery, Dcerka, Postila, Listy z Kostnice| Jistebnický kancionál Vavrinec z Brezové Husitská kronika| polipanská literatur 1434--1p15s +humanismus+renesance Petr Chelčický Siet viery pravé, O trojím lidu| ";
 texts[4] = "5 Renesance 14s--16s| --teologie, +raciona +príroda| F z Assisi Písen br Slunce, D Alighieri Bozsk komedie, F Petrarca, G Boccaccio Dekameron, G Chaucer Canterbur povídky, F Villon balada Odkaz, Závět| E Rotterdmsky Chvála blázn, MdCySaav DQuiote, Lope de Vega Fuente Ovejuna, N Machiavelli Mandragora| William Shakespeare sonety <1600 Zkrocení zlé zny, Sen nci Svatojn, Kupec Benátský, JinrVI, RichrdIII, Romeo a Julie| <1608 Macbeth, Hamlet, Král Lear, Othello| <1612 Zimní pohádka, Boure| čechy: knihtisk, Jednota bratrská preklad Bible Kralická, Viktorin Kornel ve Vsehrd| ";
